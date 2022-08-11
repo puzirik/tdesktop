@@ -141,6 +141,7 @@ jobs:
           del /S Libraries\*.pdb
           del /S Libraries\*.pch
           del /S Libraries\*.obj
+          
 
       - name: Telegram Desktop build.
         if: env.ONLY_CACHE == 'false'
